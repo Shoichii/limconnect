@@ -76,8 +76,9 @@ img {
 	color: rgb(255, 255, 255);
 }
 
-.header_contacts p:last-child {
+.header_contacts a:last-child {
 	margin-left: 15px;
+	text-decoration: none;
 }
 
 .header_name {
@@ -131,7 +132,7 @@ img {
 		flex-direction: column;
 	}
 	
-	.header_contacts p:last-child {
+	.header_contacts a:last-child {
 		margin-left: 0px;
 	}
 }
@@ -245,8 +246,10 @@ img {
 	margin-bottom: 0;
 }
 
-.footer_contacts p:last-child {
+.footer_contacts a:last-child {
 	margin-left: 15px;
+	color: black;
+	text-decoration: none;
 }
 
 .copyright {
@@ -270,7 +273,7 @@ img {
 		margin-bottom: 0;
 	}
 	
-	.footer_contacts p:last-child {
+	.footer_contacts a:last-child {
 		margin-left: 0px;
 		margin-bottom: 5px;
 	}

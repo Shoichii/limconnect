@@ -1,0 +1,277 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.wrapper {
+    width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+.header {
+    background: url('./img/backgroundHeader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+}
+
+.header_content {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.header_text {
+	color: #fff;
+	text-shadow: 0px 0px 3px black, 0 0 3em rgb(0 0 0);
+}
+
+.header_contacts {
+	display: flex;
+	justify-content: center;
+}
+
+.header_tel {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.header_contacts p:last-child {
+	margin-left: 15px;
+}
+
+.header_name {
+	margin-top: 30px;
+	font-size: 300%;
+}
+
+.header_title {
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 400%;
+	max-width: 800px;
+}
+
+.header_subtitle {
+	margin: 50px auto;
+	font-size: 150%;
+	max-width: 500px;
+}
+
+@media screen and (max-width: 530px) {
+	.header_name {
+		font-size: 200%;
+	}
+	
+	.header_title {
+		font-size: 300%;
+	}
+	
+	.header_subtitle {
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header_name {
+		font-size: 200%;
+	}
+	
+	.header_title {
+		font-size: 200%;
+	}
+	
+	.header_subtitle {
+		font-size: 80%;
+	}
+}
+
+@media screen and (max-width: 340px) {
+	.header_contacts {
+		flex-direction: column;
+	}
+	
+	.header_contacts p:last-child {
+		margin-left: 0px;
+	}
+}
+
+/* MAIN */
+
+.main {
+	width:100%;
+	margin: 0 auto;
+	margin-top:40px;
+	max-width: 980px;
+	padding: 0 20px;
+}
+
+.main_title {
+	font-size: 300%;
+	color: #0066B3;
+}
+
+.description_text {
+	margin-top: 20px;
+	line-height: 1.6;
+	font-size: 140%;
+}
+
+.description_underline {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.description_glitch {
+	line-height: 1.6;
+	font-size: 140%;
+}
+
+.description_list {
+	margin-left: 15px;
+}
+
+.description_list li {
+	line-height: 1.6;
+	font-size: 120%;
+	list-style-type: disc;
+}
+
+@media screen and (max-width: 510px) {
+	.main_title {
+		font-size: 200%;
+	}
+
+	.description_text {
+		line-height: 1.3;
+		font-size: 120%;
+	}
+	
+	.description_glitch {
+		line-height: 1.3;
+		font-size: 120%;
+	}
+	
+	.description_list li {
+		line-height: 1.3;
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.description_list {
+		margin-left: 0px;
+	}
+}
+
+
+.using {
+	margin-top: 30px;
+}
+
+.using_content {
+	background-color: #d7d5d5;
+}
+
+.accordion-collapse {
+	background-color: #f4f4f4 !important;
+}
+
+.some-functions {
+	margin-top: 30px;
+}
+
+
+/* FOOTER */
+
+.footer {
+	background-color: #cfe2ff;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.footer_contacts {
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.tel {
+	text-decoration: none;
+	color: #000;
+}
+
+.tel p{
+	margin-bottom: 0;
+}
+
+.footer_contacts p:last-child {
+	margin-left: 15px;
+}
+
+.copyright {
+	margin: 0 auto;
+	max-width: 340px;
+	padding: 0 20px;
+}
+
+@media screen and (max-width: 345px) {
+	.copyright {
+		font-size: 80%;
+		max-width: 270px;
+	}
+
+	.footer_contacts {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer_contacts p{
+		margin-bottom: 0;
+	}
+	
+	.footer_contacts p:last-child {
+		margin-left: 0px;
+		margin-bottom: 5px;
+	}
+}

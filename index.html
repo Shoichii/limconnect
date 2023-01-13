@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>LIM connect</title>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <header class='header'>
+            <div class="header_content">
+                <div class="header_contacts">
+                    <a href="tel:00000000000" class="header_tel">Тел. 0(000)-000-00-00</a>
+                    <p class="header_text">E-mail: email@email.com</p>
+                </div>
+                <p class="header_name header_text">LIM connect</p>
+                <p class="header_title header_text">Быстрый и удобный менеджер удаленного подключения</p>
+                <p class="header_subtitle header_text"><span class="description_underline">Доступ</span> к оборудованию
+                    удаленного офиса или торговой точки <span class="description_underline">в один
+                        клик.</span></p>
+            </div>
+        </header>
+        <main class="main">
+            <div class="description">
+                <p class="main_title">LIM connect - описание</p>
+                <p class="description_text">LIM connect - быстрый и удобный менеджер удаленного подключения для
+                    диагностики и настройки оборудования. С его помощью в один клик можно получить доступ к оборудованию
+                    удаленного офиса или торговой точки внутри сети.
+                    Программа берет на себя рутинные задачи, а её инструменты настраиваются индивидуально для каждого
+                    клиента, что позволяет экономить время и ресурсы на решение задач техподдержки.
+                    <br />
+                    <br />
+                    <span class="description_underline">Базовая настройка ПО</span> позволяет подключаться к следующему
+                    оборудованию:
+                <ul class="description_list">
+                    <li>Расчетно кассовым узлам (ккм, фискальным регистраторам, 2д/3д сканерам, весам)</li>
+                    <li>Оргтехнике (принтеры, МФУ, сканеры)</li>
+                    <li>Сетевым устройствам (маршрутизаторы, коммутаторы, роутеры, точки доступа)</li>
+                    <li>Серверному оборудованию (сервера, источники бесперебойного питания, облачные ресурсы)</li>
+                    <li>Клиентскому оборудованию (прайс-чекеры, терминалы, постоматы)</li>
+                    <li>Торговому оборудованию (терминалы сбора данных, биосмарты)</li>
+                    <li>Системам видеонаблюдения (камеры, регистраторы, видеоаналитека, системам распознавания лиц)</li>
+                </ul>
+                <span class="description_glitch">ПО имеет расширенный функционал <span class="description_underline">и
+                        настраивается индивидуально под каждого
+                        пользователя</span>, согласно
+                    потребностям. Дополнительно к базовым настройкам можно подключить любое сетевое устройство
+                    (например: Датчики холодильного оборудования, умные розетки и др.)</span></p>
+            </div>
+            <div class="using">
+                <p class="main_title">Использование приложения</p>
+                <div class="using_content">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Подключение
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    Для подключения к объекту(торговая точка или офис)<br />
+                                    1) введите номер объекта<br />
+                                    2) нажмите SCAN<br />
+                                    <img src="./img/1.png" alt=""><br />
+                                    В главном окне появится список оборудования и будут доступны инструменты для
+                                    подключения и диагностики.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Главное окно.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    1) Вкладки. Можно одновременно производить действия с несколькими объектами. Каждый
+                                    объект имеет типовой список оборудования.<br />
+                                    2) Добавить вкладки<br />
+                                    3) IP адрес и номер оборудования, в данной реализации кассы на объекте.<br />
+                                    4) Кнопки для быстрого подключения к оборудованию по разным протоколам.<br /><br />
+                                    <img src="./img/2.png" alt=""><br /><br />
+                                    При наведении мышки кнопки подсвечиваются и появляется подсказка по функционалу
+                                    кнопок.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    Быстрый доступ.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    Кнопки для быстрого доступа к оборудованию выбранного объекта (настраивается
+                                    индивидуально под инфраструктуру объекта).<br />
+
+                                    Пример:<br />
+                                    1) Доступ по VNC без ввода аутентификационных данных к компьютерам объекта.<br />
+                                    2) Доступ к сетевым папкам компьютеров.<br />
+                                    3) Доступ по SSH и VNC к серверу объекта.<br />
+                                    4) Доступ по HTTP к печатающим устройствам объекта.<br /><br />
+                                    <img src="./img/3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    Сканирование сети.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    Сканер сети открывается в отдельном окне, и отдельном потоке. Не блокируя основной
+                                    интерфейс.<br />
+                                    Результат сканирования выводится в виде <b>IP :: Название
+                                        оборудования.</b><br /><br />
+                                    <img src="./img/4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFive">
+                                    Подключение к оборудованию.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFive">
+                                <div class="accordion-body">
+                                    При двойном клике на оборудовании появляется выбор для подключения по разным сетевым
+                                    протоколам.
+                                    Работа с выбранным оборудованием происходит в отдельном окне.
+                                    <br /><br />
+                                    <img src="./img/5.png" alt=""><br /><br />
+                                    После подключения к оборудованию можно приступать к настройке.
+                                    После завершения работ нужно просто закрыть окно.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseSix">
+                                    Диагностика.
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingSix">
+                                <div class="accordion-body">
+                                    Модуль диагностики и получения информации с сетевых устройств на примере касс на
+                                    Linux.
+                                    После нажатия кнопки Diag открывается новое окно, позволяющее взаимодействовать с
+                                    выбранной кассой (описание смотрите ниже).
+                                    <br /><br />
+                                    <img src="./img/6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="some-functions">
+                <p class="main_title">Несколько функций в диагностике кассы Linux.</p>
+                <div class="some-functions_content">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseSeven">
+                                    <b>POS info</b> - общая информация о кассе
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingSeven">
+                                <div class="accordion-body">
+                                    <img src="./img/7.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseEight">
+                                    <span><b>CASH</b> - взаимодействие с торговой программой (в данной
+                                        реализации).</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingEight">
+                                <div class="accordion-body">
+                                    Остановка, запуск, перезапуск службы торговой программы.<br /><br />
+                                    <img src="./img/8.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseNine">
+                                    <span><b>Display</b> - информация о подключенных мониторах</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingNine">
+                                <div class="accordion-body">
+                                    <img src="./img/9.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTen">
+                                    <span><b>Smart</b> HDD - результат диагностики жесткого диска.</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTen">
+                                <div class="accordion-body">
+                                    1)Агрегированный результат для быстрого восприятия, где собраны основные
+                                    диагностические данные для принятия решения о состоянии диска<br />
+                                    2)Полный вывод диагностических данных для детальной диагностики<br /><br />
+                                    <img src="./img/10.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseEleven">
+                                    <span><b>FR info</b> - Информация о фискальном регистраторе</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingEleven">
+                                <div class="accordion-body">
+                                    <img src="./img/11.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwelve" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwelve">
+                                    <span><b>Network</b> - получение информации о сетевых настройках</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwelve" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwelve">
+                                <div class="accordion-body">
+                                    <img src="./img/12.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThirteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThirteen" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThirteen">
+                                    <span><b>Pinpad</b> - вывод информации о конфигурации банковского терминала
+                                        (пин-пада)</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThirteen" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThirteen">
+                                <div class="accordion-body">
+                                    <img src="./img/13.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFourteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFourteen" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFourteen">
+                                    <span><b>Логи</b> - системные журналы, в них
+                                        записывается поведение системы и сопутствующих программ.</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFourteen" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFourteen">
+                                <div class="accordion-body">
+                                    1) Кнопки для чтения логов (журнал системы) с выводом ошибок.<br />
+                                    2) Подсветка текста по совпадению.<br /><br />
+                                    <img src="./img/14.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFiveteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFiveteen" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFiveteen">
+                                    <span><b>lsusb</b> - Информация о подключенных USB устройствах ( названия
+                                        переработанные
+                                        под клиента)</span>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFiveteen" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFiveteen">
+                                <div class="accordion-body">
+                                    <img src="./img/15.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_contacts">
+                <a href="tel:00000000000" class="tel">Тел. 0(000)-000-00-00</a> 
+                <p>E-mail: email@email.com</p>
+            </div>
+            <p class="copyright">Copyright © 2023 LIM. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
